@@ -1,0 +1,21 @@
+{
+  "name": "Sushi",
+  "description": "Delicious",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x"
+  },
+  "authors": [
+    "edi <edikbastin@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

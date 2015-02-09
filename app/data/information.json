@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Salmon",
+        "img": "http://demos.telerik.com/kendo-ui/content/spa/websushi/images/200/sashimi-salad.jpg",
+        "price": 3,
+        "content": "Lorem ipsum dolor sit"
+    },
+    {
+        "id": 2,
+        "title": "Gohan",
+        "img": "http://demos.telerik.com/kendo-ui/content/spa/websushi/images/200/chirashi-sushi.jpg",
+        "price": 10,
+        "content": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "id": 3,
+        "title": "Gohan",
+        "img": "http://demos.telerik.com/kendo-ui/content/spa/websushi/images/200/seaweed-salad.jpg",
+        "price": 15,
+        "content": "Lorem ipsum dolor sit amet"
+    }
+]

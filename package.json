@@ -1,0 +1,15 @@
+{
+  "name": "sushi",
+  "version": "0.0.1",
+  "description": "Delisious",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.11.2",
+    "gulp": "~3.8.10"
+  }
+}

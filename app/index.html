@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Sushi EX</title>
+</head>
+<body ng-app="app" ng-controller="appController">
+<div class="application">
+    <div id="wrapper">
+        <div id="header">
+            <h1 class="logo"><a href="#/"></a></h1>
+
+            <a id="cart-info" href="#">Shopping Cart<span><span>0</span> items</span></a>
+        </div>
+        <div id="main-section">
+            <section id="pre-content">
+
+            </section>
+            <section id="content">
+                <div ng-view></div>
+            </section>
+        </div>
+    </div>
+</div>
+</div>
+<script src="/sushi/bower_components/angular/angular.min.js"></script>
+<script src="/sushi/bower_components/angular-route/angular-route.min.js"></script>
+<script src="app.js"></script>
+<script src="item/item.js"></script>
+</body>
+</html>
