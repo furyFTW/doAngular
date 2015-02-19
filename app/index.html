@@ -15,8 +15,19 @@
         </div>
         <div id="main-section">
             <section id="pre-content">
+                <ul id="main" class="k-widget k-listview" ng-repeat="menus in menu">
+                    <li class="products" role="option" aria-selected="false">
+                        <a class="view-details" href="#/menu/1">
+                            <img class="main-image" src="{{menus.img}}" alt="{{menus.title}}" title="{{menus.title}}">
+                            <strong data-bind="text: name">{{menus.title}}</strong>
+                            <span class="price"><span>$</span><span data-bind="text: price">{{menus.price}}</span></span>
+                        </a>
 
+                        <button class="add-to-cart" ng-click="addToCard(menus.id)">Add to cart</button>
+                    </li>
+                </ul>
             </section>
+            <button class="add-to-cart" ng-click="delete()">Delete</button>
             <section id="content">
                 <div ng-view></div>
             </section>
